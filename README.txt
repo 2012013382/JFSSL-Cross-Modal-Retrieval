@@ -3,4 +3,4 @@ Author: Changsu Liao
 Email: Changsu_Liao@163.com
 Development time: 2017-3-23 -- 2017-3-24
 Data: wikipedia_info(2173 train data, 693 test data)
-Usage method£º Run JFSSL.m
+Usage method: Run JFSSL.m
