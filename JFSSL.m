@@ -1,8 +1,6 @@
 %Implementation of <Joint Feature Selection and Subspace Learning for
 %Cross-Modal Retrieval>
-%Author: Changsu Liao
 %Email: Changsu_Liao@163.com
-%Development time: 2017-3-23 -- 2017-3-24
 
 %Load feature mat.
 load 'wikipedia_info/raw_features.mat';
@@ -33,11 +31,3 @@ for num = 1:loop_num
     fprintf('Loop %d test image qurey MAP: %f\n', num, MAP_image);
     fprintf('Loop %d test qurey MAP: %f\n', num, MAP_text);
 end
-
-% [W_image, W_text] = update_W(data, I_tr, T_tr, W_image, W_text,...
-%     0.1, 0.1);
-% %Get test MAP results.
-% train_or_test = 1;
-% [MAP_image, MAP_text] = get_MAP_result(data, I_te, T_te, W_image, W_text,train_or_test);
-% fprintf('Final test image qurey MAP: %f\n', MAP_image);
-% fprintf('Final test qurey MAP: %f\n', MAP_text);
