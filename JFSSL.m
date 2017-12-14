@@ -1,6 +1,6 @@
 %Implementation of <Joint Feature Selection and Subspace Learning for
 %Cross-Modal Retrieval>
-%Email: Changsu_Liao@163.com
+%Email: changsuliao@gmail.com
 
 %Load feature mat.
 load 'wikipedia_info/raw_features.mat';
